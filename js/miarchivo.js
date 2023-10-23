@@ -4,14 +4,14 @@
 
 //FUNCION BIENVENIDA CON ALGORITMO CICLO//
 
-/*function nombreUsuario() {
+function nombreUsuario() {
     let usuario = prompt("Por favor, ingrese su nombre de usuario:");
     while (usuario !== null && usuario !== "esc") {
         console.log("Bienvenid@" + usuario);
         usuario = prompt("Por favor, ingrese su nombre de usuario:");
     }
 }
-nombreUsuario()*/
+nombreUsuario()
 
 
 
@@ -20,7 +20,7 @@ nombreUsuario()*/
 
 //FUNCION EDAD CON UN ALGORITMO CONDICIONAL //
 
-/*function identificarEdad(){
+function identificarEdad(){
     edad = prompt("Por favor, ingrese su edad:");
     if (!isNaN(edad)) {
         if (edad >= 1 && edad <= 60) {
@@ -34,13 +34,13 @@ nombreUsuario()*/
     console.warn("Por favor, ingrese una edad válida.");
     }
 }
-identificarEdad()*/
+identificarEdad()
 
 
 //FUNCION APORTES CON UN ALGORITMO CONDICIONAL//
 
 
-/*function totalaportes(){
+function totalaportes(){
     declaracionAportes = prompt("Posee aportes para derivar? Coloque 'si' o 'no'").toLowerCase();
     if(declaracionAportes === 'si') {
         let aporte = parseFloat(prompt("Ingrese el monto a derivar de aportes y le daremos un aproximado de monto a pagar por el plan elegido"));
@@ -64,7 +64,7 @@ identificarEdad()*/
     console.warn("Por favor, responda 'si' o 'no' para indicar si tiene aportes.");
 }
 }
-totalaportes()*/
+totalaportes()
 
 
 
@@ -73,7 +73,7 @@ totalaportes()*/
 
 //FUNCION DESCUENTO DE IVA//
 
-/*
+
 let vital = 10000;
 let senior = 30000;
 let iva = 21; 
@@ -91,14 +91,14 @@ function descuentoIva() {
     }
 }
 descuentoIva();
-*/
+
 
 
 //Aqui el cliente cuando busque a nuestro proveedores segun la especialidad, tambien le de la opcion de imprimir y abonar la orden de consulta ya desde nuestra pagina, la cual este dato tendria que impactar con la cuenta corriente del sistema que posee la obra social contable//
 
 //FUNCION COMPRA ORDENES//
 
-/*
+
 let precioOrdenes = 3000;
 function ordenes(){
     let cantidad = parseInt(prompt('Ingrese la cantidad de ordenes que desea comprar'));
@@ -111,7 +111,7 @@ function ordenes(){
     }
 }
 ordenes();
-*/
+
 
 
 
