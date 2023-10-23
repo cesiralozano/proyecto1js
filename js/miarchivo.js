@@ -1,9 +1,8 @@
 
-//Proyecto sobre una obra social, en el siguiente ejemplo quiero que el usuario coloque su nombre y mi programa le de la bienvenida, luego le solicitara la edad y segun lo que ingrese  mi programa debe indicarle segun su edad que plan le corresponderia y luego le pregunta si posee aportes para derivar, si posee se le pide que ingrese el importe de aportes y luego el nombre del plan que se le otorgò segun su edad, luego tiene la opcion de descontar el iva, Luego la opcion para comprar descartables (estas funciones me gustaria colocarlas en distintas pages de mi sitio, para que el usuario segun lo que esta consultando le salte la opcion)
+//Proyecto sobre una obra social, en el siguiente ejemplo quiero que el usuario coloque su nombre y mi programa le de la bienvenida//
 
 
-
-//FUNCION CON ALGORITMO CICLO//
+//FUNCION BIENVENIDA CON ALGORITMO CICLO//
 
 /*function nombreUsuario() {
     let usuario = prompt("Por favor, ingrese su nombre de usuario:");
@@ -17,8 +16,9 @@ nombreUsuario()*/
 
 
 
-//FUNCION CON UN ALGORITMO CONDICIONAL//
+//Luego le solicitara la edad y segun lo que ingrese el cliente el programa debe indicarle segun su edad que plan le corresponderia consultar para contratar y en conjunto con la siguiente funcion totalaportes, me gustaria que seguido el cliente ingrese si posee o no aportes para luego ingrese el importe de aportes a derivar y que este le calcule en un aproximado cuanto terminaria abonando de cuota//
 
+//FUNCION EDAD CON UN ALGORITMO CONDICIONAL //
 
 /*function identificarEdad(){
     edad = prompt("Por favor, ingrese su edad:");
@@ -37,9 +37,7 @@ nombreUsuario()*/
 identificarEdad()*/
 
 
-
-
-//FUNCION 2 CON UN ALGORITMO CONDICIONAL//
+//FUNCION APORTES CON UN ALGORITMO CONDICIONAL//
 
 
 /*function totalaportes(){
@@ -71,6 +69,7 @@ totalaportes()*/
 
 
 
+//Luego tiene la opcion que si el cliente puede segun las normativas del gobierno pueda descontar el iva de su cuota//
 
 //FUNCION DESCUENTO DE IVA//
 
@@ -95,31 +94,36 @@ descuentoIva();
 */
 
 
+//Aqui el cliente cuando busque a nuestro proveedores segun la especialidad, tambien le de la opcion de imprimir y abonar la orden de consulta ya desde nuestra pagina, la cual este dato tendria que impactar con la cuenta corriente del sistema que posee la obra social contable//
 
-//FUNCION PRECIO DESCARTABLES//
+//FUNCION COMPRA ORDENES//
 
 /*
-let precioDescartables = 3000;
-function descartables(){
-    let cantidad = parseInt(prompt('Ingrese la cantidad de descartables que desea comprar'));
+let precioOrdenes = 3000;
+function ordenes(){
+    let cantidad = parseInt(prompt('Ingrese la cantidad de ordenes que desea comprar'));
 
     if(!isNaN(cantidad) && cantidad > 0){
-        let resultado = precioDescartables * cantidad;
+        let resultado = precioOrdenes * cantidad;
         console.log ('Importe a abonar:' ,  resultado);
     }else{
         console.warn("Por favor, ingrese una cantidad válida");
     }
 }
-descartables();
+ordenes();
 */
 
 
 
 
 
-//ALGORITMO UTILIZANDO CICLO// se que no es necesario en este caso utilizar un for, solo con el if puedo hacer la misma ejecucion pero no sabia de que otra manera implementar un ciclo en mi proyecto.
-/*for (let i = 1; i <= 100; i++) {
-    let edad = prompt("Por favor, ingrese su edad:");
+//CONSULTA//
+
+
+//ALGORITMO UTILIZANDO CICLO// este ciclo ya lo pude hacer con una funcion pero en la practica cuando estaba practicando el cliclo for arme este y quisiera saber si lo sube armar bien 
+
+
+    /*let edad = prompt("Por favor, ingrese su edad:");
     let edad2 = parseInt(edad);
 
     if (!isNaN(edad2)) {
