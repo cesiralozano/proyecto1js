@@ -1,0 +1,140 @@
+/*!----------------------TIPOGRAFIA------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1;1,300&display=swap");
+/*!----------------------RESET------------------*/
+* {
+margin: 0;
+padding: 0; }
+
+* {
+box-sizing: border-box; }
+
+/*!-------------------------------------------------HEADER--------------------------------------*/
+header {
+position: sticky;
+top: 0;
+z-index: 2; }
+
+header nav {
+background-color: #E80088; }
+
+.navbar-brand {
+color: white;
+font-style: italic;
+font-size: 18px;
+margin-left: 95px; }
+
+.navbar-nav a {
+color: white;
+font-style: inherit;}
+
+/*MAPA*/
+.mapa iframe {
+width: 100%;
+height: 390px; }
+
+
+/*!---------------------------INDEX----*/
+/*tituloprincipal*/
+.titulo1 h1{
+    background-image: url(../img/bienvenidos.webp);
+    background-size: cover;
+    width:100%;
+    height:280px ;
+    color:rgba(255, 255, 255, 0.576);
+    font-size: 65px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1;
+    padding: 95px
+}
+
+/*titulosecundario BIENVENIDOS*/
+.titulo2 h1{
+    color: #255b99c8;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+
+}
+/*Banner*/
+.banner1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/*titulosecundario UBICACION Y REDES SOCIALES*/
+.nuestrasredes h2{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: none;
+    background-color: rgb(227,227,227);
+    padding: 10px;
+
+}
+
+.nuestrasredes h3 {
+    color: #D4D4D4;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.contacto h2 {
+    color: #D4D4D4;
+    margin-top: 65px;
+    letter-spacing: 0.15em;
+    font-size: 46px;
+    text-align: center;
+}
+.mapa h4 {
+    color: #D4D4D4;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.mapa h5 {
+    color: #D4D4D4;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/*MAPA*/
+.mapa iframe{
+    width:100%;
+    height:70vh;
+}
+.grid-container2 div img {
+    width: 323px;
+    height: 362px;
+
+}
+.grid-container2 div {
+    display: flex;
+    display: inline-block;
+}
+.grid-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+/*!------------------------FOOTER--------------------*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:20px;
+    max-width: 100%;
+}
+.grid-item img{
+    height: 35px;
+    width: 20px;
+}
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
