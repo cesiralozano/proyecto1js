@@ -63,6 +63,52 @@ height: 390px; }
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
+/*CARDS*/
+.cards div a {
+    font-style: italic;
+    margin-top: 20px;
+    transition: 1s; 
+    }
+.cards div  a:hover {
+    background-color: #255b99c8;
+    color: white; }
+.cards div {
+
+    transition: 1s; }
+.cards div:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 31px -8px #0a0a0b;
+    -webkit-box-shadow: 10px 10px 31px -8pxrgb 10, 10, 11;
+    -moz-box-shadow: 10px 10px 31px -8px #0a0a0b; }
+
+
+.cards div {
+    border: 1px solid;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    margin: 85px; }
+.cards div img {
+    width: 250px;
+    height: 200px;}
+.cards div p {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+.cards div h2 {
+    font-size: 20px;
+    color: #255b99c8;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+} 
+
 /*titulosecundario UBICACION Y REDES SOCIALES*/
 .nuestrasredes h2{
     color:white;
